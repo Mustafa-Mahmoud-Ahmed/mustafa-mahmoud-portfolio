@@ -1,0 +1,38 @@
+.footer {
+  padding: 0.2rem 0;
+  text-align: center;
+  border-top: 1px solid rgba(102, 126, 234, 0.2);
+  transition: all 0.3s ease;
+}
+
+.footer.light {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.footer.dark {
+  background-color: #16213e;
+  color: #e0e0e0;
+}
+
+.footer-content p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.copyright {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 0;
+  }
+
+  .footer-content p {
+    font-size: 0.95rem;
+  }
+}
